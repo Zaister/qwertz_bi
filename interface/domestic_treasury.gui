@@ -66,6 +66,15 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					shortcut = "c"
 				}
+				guiButtonType =	{
+					name = "button_destroy"
+					position = { x=60 y=110 }
+					quadTextureSprite ="GFX_destroy_artifact"	
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+					Orientation = "UPPER_LEFT"
+				}
 				
 				instantTextBoxType = {
 					name ="name"

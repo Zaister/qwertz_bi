@@ -1447,6 +1447,11 @@
 	}
 	
 	positionType = {
+		name = "interactions_max_size"
+		position = { x = 219 y = 416 }
+	}
+	
+	positionType = {
 		name = "interaction_window_offset"
 		position = { x = -29 y = 0 }
 	}
