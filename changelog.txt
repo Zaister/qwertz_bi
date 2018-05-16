@@ -1,0 +1,11 @@
+QWERTZ Shortcuts for Bigger Interface Mod
+Changelog
+
+---
+v. 1.30
+- Updated for patch 2.8.2
+- Version number changed to be in sync with Bigger Interface version number.
+
+v. 1.0
+- Release
+- Thanks to Kamufen for the original Bigger Interface mod and Arumba for the keyboard shortcuts!

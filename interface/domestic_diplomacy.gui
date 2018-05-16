@@ -652,12 +652,12 @@
 				iconType = {
 					name ="diplo_chance_bg"
 					spriteType = "GFX_diplo_chance_bg"
-					position = { x= 115 y = 296 }
+					position = { x= 115 y = 392 }
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
 					name = "ai_accept"
-					position = { x = 118 y = 302 }
+					position = { x = 118 y = 399 }
 					font = "vic_18_black"
 					text = ""	
 					maxWidth = 127

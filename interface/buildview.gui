@@ -148,6 +148,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_create_baron"
 			position = { x = 208 y = 118 }
 			Orientation = "UPPER_LEFT"
+			#priority_shortcut = "v"
 			shortcut = "v"
 			pdx_tooltip = "CREATE_BARON"
 		}
@@ -224,7 +225,8 @@ guiTypes = {
 			name ="next_province"
 			quadTextureSprite = "GFX_buildview_next"
 			position = { x= 87 y = 121 }
-			shortcut = "b"
+			priority_shortcut = "b"
+			#shortcut = "b"
 			pdx_tooltip = "NEXT_PROVINCE"
 			clicksound = generic_click_04
 		}

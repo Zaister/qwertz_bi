@@ -332,27 +332,27 @@ guiTypes = {
 		iconType = {
 			name = "plot_icon"
 			spriteType ="GFX_plot_kill_character"	
-			position = { x=6 y=1 }
+			position = { x=314 y=4 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "leader_label"
-			position = { x = -12 y = 40 }
+			position = { x = 10 y = 19 }
 			textureFile = ""
-			font = "Arial12"
+			font = "Arial12_bold"
 			borderSize = {x = 0 y = 0}
 			text = "LEADER"
-			maxWidth = 64
+			maxWidth = 75
 			maxHeight = 20
 			fixedsize = yes
-			format = right
+			format = centre
 		}
 		###
 		guiButtonType =	{
 			name ="plotter_portrait"
 			quadTextureSprite= "GFX_char_34"
-			position = { x= 69 y = 31 }
+			position = { x= 28 y = 35 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
 			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -361,36 +361,36 @@ guiTypes = {
 		guiButtonType = {
 			name ="plotter_portrait_frame"
 			quadTextureSprite = "GFX_charframe_34"
-			position = { x= 64 y = 25 }
+			position = { x= 23 y = 29 }
 			Orientation = "UPPER_LEFT"
 		}
 		guiButtonType = {
 			name ="plotter_portrait_status"
 			spriteType = "GFX_overlay_char_status_34"
-			position = { x= 67 y = 25 }
+			position = { x= 26 y = 29 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="plotter_portrait_relation"
 			spriteType = "GFX_overlay_char_relation_34"
-			position = { x= 88 y = 25 }
+			position = { x= 47 y = 29 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name ="plotter_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 51 y = 42 }
+			position = { x= 6 y = 42 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="plotter_opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 93 y = 45 }
+			position = { x= 52 y = 45 }
 		}
 		instantTextBoxType = {
 			name = "plotter_opinion"
-			position = { x = 85 y = 51 }
+			position = { x = 46 y = 51 }
 			textureFile = ""
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -404,21 +404,21 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "claimant_label"
-			position = { x = 120 y = 40 }
+			position = { x = 90 y = 19 }
 			textureFile = ""
-			font = "Arial12"
+			font = "Arial12_bold"
 			borderSize = {x = 0 y = 0}
 			text = "CLAIMANT"
-			maxWidth = 64
+			maxWidth = 75
 			maxHeight = 20
 			fixedsize = yes
-			format = right
+			format = centre
 		}
 		###
 		guiButtonType =	{
 			name ="target_portrait"
 			quadTextureSprite= "GFX_char_34"
-			position = { x= 201 y = 31 }
+			position = { x= 118 y = 35 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
 			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -426,37 +426,37 @@ guiTypes = {
 		guiButtonType = {
 			name ="target_portrait_frame"
 			quadTextureSprite = "GFX_charframe_34"
-			position = { x= 196 y = 25 }
+			position = { x= 113 y = 29 }
 			Orientation = "UPPER_LEFT"
 		}
 		guiButtonType = {
 			name ="target_portrait_status"
 			spriteType = "GFX_overlay_char_status_34"
-			position = { x= 199 y = 25 }
+			position = { x= 117 y = 29 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="target_portrait_relation"
 			spriteType = "GFX_overlay_char_relation_34"
-			position = { x= 220 y = 25 }
+			position = { x= 143 y = 29 }
 			Orientation = "UPPER_LEFT"
 		}
 		guiButtonType = {
 			name ="target_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 183 y = 42 }
+			position = { x= 96§ y = 42 }
 			Orientation = "UPPER_LEFT"
 		}
 		###
 		
 		instantTextBoxType = {
 			name = "faction_name"
-			position = { x = 37 y = 6 }
+			position = { x = 17 y = 4 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 285
+			maxWidth = 290
 			maxHeight = 20
 			fixedsize = yes
 			format = left
@@ -464,14 +464,14 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "join_button"
-			position = { x = 490 y = 31 }
+			position = { x = 480 y = 2 }
 			quadTextureSprite = "GFX_plots_faction_join"
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
 		}
 		guiButtonType = {
 			name = "leave_button"
-			position = { x = 490 y = 31 }
+			position = { x = 480 y = 2 }
 			quadTextureSprite = "GFX_plots_faction_leave"
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
@@ -479,35 +479,35 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "power_info"
-			position = { x = 328 y = 7 }
+			position = { x = 355 y = 4 }
 			textureFile = ""
 			font = "Arial12_black"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 185
-			maxHeight = 20
+			maxWidth = 120
+			maxHeight = 40
 			fixedsize = yes
-			format = left
+			format = centre
 		}
 		
 		instantTextBoxType = {
 			name = "backers_label"
-			position = { x = 240 y = 40 }
+			position = { x = 215 y = 19 }
 			textureFile = ""
-			font = "Arial12"
+			font = "Arial12_bold"
 			borderSize = {x = 0 y = 0}
 			text = "LEDGER_MEMBERS"
-			maxWidth = 64
+			maxWidth = 75
 			maxHeight = 20
 			fixedsize = yes
-			format = right
+			format = centre
 		}
 		
 		OverlappingElementsBoxType = {
 			name = "backer_box"
-			position = { x = 305 y = 25 }
+			position = { x = 178 y = 28 }
 			format = left
-			size = { x=170 y = 64 }
+			size = { x = 340 y = 64 }
 		}
 	}
 }

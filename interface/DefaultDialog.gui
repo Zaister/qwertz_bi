@@ -73,7 +73,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound=generic_click_04
 		}
 
@@ -150,7 +151,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound=generic_click_04
 		}
 
@@ -225,7 +227,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound=generic_click_04
 		}
 
@@ -309,7 +312,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound=generic_click_04
 		}
 
@@ -381,7 +385,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound=generic_click_04
 		}
 
@@ -574,7 +579,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_big_button_220"
 			buttonText = "QUIT_TO_MENU"
 			buttonFont = "vic_22"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 		}
 		
 		guiButtonType = {
@@ -785,7 +791,8 @@ guiTypes = {
 			quadTextureSprite = "GFX_big_button_220"
 			buttonText = "QUIT_TO_MENU"
 			buttonFont = "vic_22"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 		}
 		guiButtonType = {
 			name = "ScoreButton"
@@ -1114,7 +1121,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound = generic_click_04
 		}
 		
@@ -1195,7 +1203,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 		}
 
 		
@@ -1354,7 +1363,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 		}
 
 
@@ -1373,7 +1383,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 		}
 		
 		
@@ -1448,7 +1459,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound=generic_click_04
 		}
 
@@ -1561,7 +1573,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_standard_button_148"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "c"
+			priority_shortcut = "c"
+			shortcut = "ENTER"
 			clicksound=generic_click_04
 		}
 		

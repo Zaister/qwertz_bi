@@ -5,8 +5,8 @@ guiTypes =
 	{
 		name = "hints_splash_screen"
 		backGround=""
-		position = { x=-524 y =-425 }	
-		size = { x=1024 y=820 }
+		position = { x=-524 y =-348 }	
+		size = { x=1024 y=729 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -19,67 +19,67 @@ guiTypes =
 		iconType = {
 			name = "rules_bg"
 			quadTextureSprite ="GFX_game_rules_backgorund"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = -67 }
 		}
 		
 		iconType = {
 			name = "banner_picture"
 			quadTextureSprite ="GFX_welcome_screen_picture"
-			position = { x = 281 y = 85 }
-			#position = { x = -225 y = -275 }
+			position = { x = 291 y = 93 }
+			#position = { x = -232 y = -275 }
 			#Orientation = "CENTER"
 		}
 		
 		iconType = {
 			name = "vassal_icon"
 			quadTextureSprite ="GFX_welcome_screen_vassal"
-			position = { x = 177 y = 334 }
+			position = { x = 100 y = 327 }
 		}
 		
 		iconType = {
 			name = "heir_icon"
 			quadTextureSprite ="GFX_welcome_screen_heir"
-			position = { x = 782 y = 410 }
+			position = { x = 884 y = 400 }
 		}
 		
 		iconType = {
 			name = "control_icon"
 			quadTextureSprite ="GFX_welcome_screen_controls"
-			position = { x = 177 y = 503 }
+			position = { x = 100 y = 504 }
 		}
 		
 		iconType ={
 			name ="separator_0"
-			spriteType = "GFX_game_rules_divider"
-			position = { x=293 y=314 }
+			spriteType = "GFX_game_rules_divider_long"
+			position = { x=100 y=314 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="separator_1"
-			spriteType = "GFX_game_rules_divider"
-			position = { x=293 y=401 }
+			spriteType = "GFX_game_rules_divider_long"
+			position = { x=100 y=390 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="separator_2"
-			spriteType = "GFX_game_rules_divider"
-			position = { x=293 y=469 }
+			spriteType = "GFX_game_rules_divider_long"
+			position = { x=100 y=471 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		iconType ={
 			name ="separator_3"
-			spriteType = "GFX_game_rules_divider"
-			position = { x=293 y=555 }
+			spriteType = "GFX_game_rules_divider_long"
+			position = { x=100 y=550 }
 			orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType =	
 		{
 			name = "button_next"
-			position = { x=200 y=270 }
+			position = { x=212 y=274 }
 			quadTextureSprite ="GFX_big_button_220"
 			buttonFont = "vic_18"
 			buttonText = "DIP_NEXT"
@@ -193,7 +193,7 @@ guiTypes =
 		{
 			name = "button_close"
 			orientation = "CENTER"
-			position = { x=200 y=315 }
+			position = { x=200 y=375 }
 			quadTextureSprite ="GFX_big_button_220"
 			buttonFont = "vic_18"
 			buttonText = "HINTS_CLOSE"
@@ -206,7 +206,7 @@ guiTypes =
 		{
 			name = "button_gamerules"
 			orientation = "CENTER"
-			position = { x=-400 y=315}
+			position = { x=-400 y=375}
 			quadTextureSprite ="GFX_big_button_220"
 			buttonFont = "vic_18"
 			buttonText = "GAME_RULES_WINDOW_TITLE"
@@ -216,7 +216,7 @@ guiTypes =
 		
 		instantTextBoxType = {
 			name ="Title"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 64 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 0 y = -10}
@@ -229,7 +229,7 @@ guiTypes =
 		instantTextBoxType = 
 		{
 			name = "Text_0"
-			position = { x = 20 y = 90 }
+			position = { x = 20 y = 150 }
 			textureFile = ""
 			font = "vic_36_black"
 			borderSize = {x = 0 y = 0}
@@ -242,7 +242,7 @@ guiTypes =
 		instantTextBoxType = 
 		{
 			name = "Text_1"
-			position = { x = 92 y = 140 }
+			position = { x = 92 y = 200 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
@@ -255,7 +255,7 @@ guiTypes =
 		instantTextBoxType = 
 		{
 			name = "Text_2"
-			position = { x = 92 y = 205 }
+			position = { x = 92 y = 265 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
@@ -268,7 +268,7 @@ guiTypes =
 		instantTextBoxType = 
 		{
 			name = "Text_3"
-			position = { x = 92 y = 435 }
+			position = { x = 92 y = 495 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
@@ -280,7 +280,7 @@ guiTypes =
 		
 		smoothListboxType = {
 			name = "ListBoxText_0"
-			position = { x = 543 y = 140 }
+			position = { x = 543 y = 200 }
 			backGround=""
 			size = { x=400 y=60 }
 			Orientation = "UPPER_LEFT"
@@ -291,7 +291,7 @@ guiTypes =
 		
 		smoothListboxType = {
 			name = "ListBoxText_1"
-			position = { x = 545 y = 205 }
+			position = { x = 545 y = 265 }
 			backGround=""
 			size = { x=400 y=215 }
 			Orientation = "UPPER_LEFT"
@@ -302,7 +302,7 @@ guiTypes =
 		
 		smoothListboxType = {
 			name = "ListBoxText_2"
-			position = { x = 545 y = 435 }
+			position = { x = 545 y = 495 }
 			backGround=""
 			size = { x=400 y=240 }
 			Orientation = "UPPER_LEFT"
@@ -333,7 +333,7 @@ guiTypes =
 		
 		windowType = {
 			name = "separators_1"
-			position = { x=75 y = 195 }
+			position = { x=75 y = 253 }
 			orientation = "UPPER_LEFT"
 			moveable = 0
 			
@@ -353,7 +353,7 @@ guiTypes =
 		
 		windowType = {
 			name = "separators_2"
-			position = { x=75 y = 370 }
+			position = { x=75 y = 430 }
 			orientation = "UPPER_LEFT"
 			moveable = 0
 			

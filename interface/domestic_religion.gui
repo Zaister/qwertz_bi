@@ -996,7 +996,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = character_view_click
 			pdx_tooltip = "SHOW_COLLEGE_OF_CARDINALS"
-			shortcut = "x"
+			#shortcut = "x"
 		}
 		instantTextBoxType = {
 			name = "bishops_label"
