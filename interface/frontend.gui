@@ -166,6 +166,25 @@ guiTypes = {
 				fixedsize = yes
 				format = centre
 			}
+			iconType ={
+				name ="alt_start_ornament"
+				spriteType = "GFX_alt_era_ornament"
+				position = { x= 26 y =185 }
+			}
+			guiButtonType = {
+				name ="shattered_start"
+				spriteType = "GFX_alt_era_shattered_button"
+				position = { x= 51 y =190 }
+				pdx_tooltip = "SHATTERED_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "SHATTERED_WORLD_TOOLTIP_DELAYED"
+			}
+			guiButtonType = {
+				name ="random_start"
+				spriteType = "GFX_alt_era_random_button"
+				position = { x= 88 y =190 }
+				pdx_tooltip = "RANDOM_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "RANDOM_WORLD_TOOLTIP_DELAYED"
+			}
 
 			iconType ={
 				name ="pick_era_ornament"
@@ -236,6 +255,27 @@ guiTypes = {
 				fixedsize = yes
 				format = centre
 			}
+			iconType ={
+				name ="alt_start_ornament"
+				spriteType = "GFX_alt_era_ornament"
+				position = { x= 26 y =185 }
+			}
+			guiButtonType = {
+				name ="shattered_start"
+				spriteType = "GFX_alt_era_shattered_button"
+				position = { x= 51 y =190 }
+				pdx_tooltip = "SHATTERED_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "SHATTERED_WORLD_TOOLTIP_DELAYED"
+				clicksound = click_shattered_world
+			}
+			guiButtonType = {
+				name ="random_start"
+				spriteType = "GFX_alt_era_random_button"
+				position = { x= 88 y =190 }
+				pdx_tooltip = "RANDOM_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "RANDOM_WORLD_TOOLTIP_DELAYED"
+				clicksound = click_random_world
+			}
 
 			iconType ={
 				name ="pick_era_ornament"
@@ -300,6 +340,25 @@ guiTypes = {
 				fixedsize = yes
 				format = centre
 			}
+			iconType ={
+				name ="alt_start_ornament"
+				spriteType = "GFX_alt_era_ornament"
+				position = { x= 26 y =185 }
+			}
+			guiButtonType = {
+				name ="shattered_start"
+				spriteType = "GFX_alt_era_shattered_button"
+				position = { x= 51 y =190 }
+				pdx_tooltip = "SHATTERED_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "SHATTERED_WORLD_TOOLTIP_DELAYED"
+			}
+			guiButtonType = {
+				name ="random_start"
+				spriteType = "GFX_alt_era_random_button"
+				position = { x= 88 y =190 }
+				pdx_tooltip = "RANDOM_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "RANDOM_WORLD_TOOLTIP_DELAYED"
+			}
 		}
 		###
 		windowType = {
@@ -349,6 +408,25 @@ guiTypes = {
 				maxHeight = 20
 				fixedsize = yes
 				format = centre
+			}
+			iconType ={
+				name ="alt_start_ornament"
+				spriteType = "GFX_alt_era_ornament"
+				position = { x= 26 y =185 }
+			}
+			guiButtonType = {
+				name ="shattered_start"
+				spriteType = "GFX_alt_era_shattered_button"
+				position = { x= 51 y =190 }
+				pdx_tooltip = "SHATTERED_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "SHATTERED_WORLD_TOOLTIP_DELAYED"
+			}
+			guiButtonType = {
+				name ="random_start"
+				spriteType = "GFX_alt_era_random_button"
+				position = { x= 88 y =190 }
+				pdx_tooltip = "RANDOM_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "RANDOM_WORLD_TOOLTIP_DELAYED"
 			}
 		}
 		###
@@ -400,6 +478,25 @@ guiTypes = {
 				fixedsize = yes
 				format = centre
 			}
+			iconType ={
+				name ="alt_start_ornament"
+				spriteType = "GFX_alt_era_ornament"
+				position = { x= 26 y =185 }
+			}
+			guiButtonType = {
+				name ="shattered_start"
+				spriteType = "GFX_alt_era_shattered_button"
+				position = { x= 51 y =190 }
+				pdx_tooltip = "SHATTERED_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "SHATTERED_WORLD_TOOLTIP_DELAYED"
+			}
+			guiButtonType = {
+				name ="random_start"
+				spriteType = "GFX_alt_era_random_button"
+				position = { x= 88 y =190 }
+				pdx_tooltip = "RANDOM_WORLD_TOOLTIP"
+				pdx_tooltip_delayed = "RANDOM_WORLD_TOOLTIP_DELAYED"
+			}
 		}
 		
 		
@@ -411,6 +508,7 @@ guiTypes = {
 			text = ""
 			maxWidth = 640
 			maxHeight = 170
+			alwaystransparent = yes
 		}
 		
 		OverlappingElementsBoxType = {
@@ -1035,16 +1133,6 @@ guiTypes = {
 
 				guiButtonType = 
 				{
-					name = "tutorial_button"
-					position = { x = 335 y = -60 }
-					quadTextureSprite ="GFX_big_button_176"	
-					buttonText = "FE_TUTORIAL"
-					buttonFont = "vic_22"
-					clicksound = menu_click
-				}
-
-				guiButtonType = 
-				{
 					name = "nudge_button"
 					position = { x = 335 y = -10 }
 					quadTextureSprite ="GFX_big_button_176"	
@@ -1178,7 +1266,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "single_player_button"
-					position = { x = 335 y = -160 }
+					position = { x = 335 y = -110 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_NEW_GAME"
 					buttonFont = "vic_22"
@@ -1188,19 +1276,9 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "load_game_button"
-					position = { x = 335 y = -110 }
-					quadTextureSprite ="GFX_big_button_176"	
-					buttonText = "FE_LOAD_GAME"
-					buttonFont = "vic_22"
-					clicksound = menu_click
-				}
-
-				guiButtonType = 
-				{
-					name = "tutorial_button"
 					position = { x = 335 y = -60 }
 					quadTextureSprite ="GFX_big_button_176"	
-					buttonText = "FE_TUTORIAL"
+					buttonText = "FE_LOAD_GAME"
 					buttonFont = "vic_22"
 					clicksound = menu_click
 				}
@@ -1220,7 +1298,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc007"
 					quadTextureSprite = "GFX_dlc_icon_sword_of_islam"
-					position = { x=-121 y=139 }
+					position = { x=-138 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1229,7 +1307,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc011"
 					quadTextureSprite = "GFX_dlc_icon_legacy_of_rome"
-					position = { x=-86 y=139 }
+					position = { x=-103 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1237,7 +1315,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc018"
 					quadTextureSprite = "GFX_dlc_icon_sunset_invasion"
-					position = { x=-51 y=139 }
+					position = { x=-68 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1245,7 +1323,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc022"
 					quadTextureSprite = "GFX_dlc_icon_the_republic"
-					position = { x=-16 y=139 }
+					position = { x=-33 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1253,7 +1331,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc024"
 					quadTextureSprite = "GFX_dlc_icon_the_old_gods"
-					position = { x=19 y=139 }
+					position = { x=2 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1261,7 +1339,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc032"
 					quadTextureSprite = "GFX_dlc_icon_sons_of_abraham"
-					position = { x=54 y=139 }
+					position = { x=37 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1269,7 +1347,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc039"
 					quadTextureSprite = "GFX_dlc_icon_rajas_of_india"
-					position = { x=89 y=139 }
+					position = { x=72 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1277,7 +1355,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc045"
 					quadTextureSprite = "GFX_dlc_icon_charlemagne"
-					position = { x=-121 y=174 }
+					position = { x=107 y=139 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1285,7 +1363,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc050"
 					quadTextureSprite = "GFX_dlc_icon_way_of_life"
-					position = { x=-86 y=174 }
+					position = { x=-119 y=174 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1293,7 +1371,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc054"
 					quadTextureSprite = "GFX_dlc_icon_horse_lords"
-					position = { x=-51 y=174 }
+					position = { x=-84 y=174 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1301,7 +1379,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc062"
 					quadTextureSprite = "GFX_dlc_icon_zeus"
-					position = { x=-16 y=174 }
+					position = { x=-49 y=174 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1309,7 +1387,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc066"
 					quadTextureSprite = "GFX_dlc_icon_reapers_due"
-					position = { x=19 y=174 }
+					position = { x=-14 y=174 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1317,7 +1395,7 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc069"
 					quadTextureSprite = "GFX_dlc_icon_monks_and_mystics"
-					position = { x=54 y=174 }
+					position = { x=21 y=174 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1325,7 +1403,16 @@ guiTypes = {
 				guiButtonType = {
 					name = "dlc_icon_dlc073"
 					quadTextureSprite = "GFX_dlc_icon_jade_dragon"
-					position = { x=89 y=174 }
+					position = { x=56 y=174 }
+					pdx_tooltip = "DLC_TOOLTIP"
+					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
+					clicksound = generic_click_04
+				}
+
+				guiButtonType = {
+					name = "dlc_icon_dlc074"
+					quadTextureSprite = "GFX_dlc_icon_jade_dragon"
+					position = { x=91 y=174 }
 					pdx_tooltip = "DLC_TOOLTIP"
 					pdx_tooltip_delayed = "DLC_TOOLTIP_DELAYED"
 					clicksound = generic_click_04
@@ -1495,7 +1582,7 @@ guiTypes = {
 				{
 					name ="left_sidepanel"
 					spriteType = "GFX_lobby_left_bg"
-					position = { x= 0 y = 31 }
+					position = { x= -1 y = 31 }
 					Orientation = "UPPER_LEFT"
 				}
 				iconType =
@@ -1518,15 +1605,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					format = centre
 				}
-				
-				### REMOVE
-				guiButtonType = {
-					name = "newgame_tab"
-					position = { x = 999919 y = 46 }
-					quadTextureSprite ="GFX_lobby_tab"	
-					clicksound = character_view_click
-				} 
-				###
 
 				guiButtonType = {
 					name = "savedgame_tab"
@@ -1536,83 +1614,8 @@ guiTypes = {
 					buttonText = "FE_LOAD_GAME"
 					clicksound = character_view_click
 					shortcut = "v"
-				}				
-
-				
-				### save games
-				windowType = 
-				{
-					name ="save_games"
-					backGround=""
-					position = { x=0 y =0 }	
-					size = { x=115 y =768}
-					moveable = 0
-					dontRender = ""
-					horizontalBorder= ""
-					verticalBorder= ""
-					upsound = ""
-					downsound = ""
-					fullscreen=no
-				
-					instantTextBoxType = 
-					{
-						name = "saves_label"
-						position = { x = 22 y = 85 }
-						textureFile = ""
-						font = "vic_18"
-						borderSize = {x = 0 y = 0}
-						text = "FE_LOAD_GAME"	
-						maxWidth = 212
-						maxHeight = 20	
-						format = centre
-					}
-					
-					guiButtonType = 
-					{
-						name = "back"
-						position = { x = 215 y = 113 }
-						quadTextureSprite ="GFX_main_back_button"	
-					}
-					
-					instantTextBoxType = 
-					{
-						name = "saves_dirs"
-						position = { x = 30 y = 116 }
-						textureFile = ""
-						font = "vic_18"
-						borderSize = {x = 0 y = 0}
-						text = ""	
-						maxWidth = 195
-						maxHeight = 20	
-						format = left
-						fixedsize = yes
-					}
-
-					listboxType = 
-					{
-						name ="save_games_list"
-						position = { x = -11 y = 146 }
-						backGround=""
-						size = { x=243 y =378}
-						Orientation = "UPPER_LEFT"
-						spacing = 0
-						scrollbartype = "standardlistbox_slider"
-						borderSize = {x = 0 y = 0}
-					}
-					
-					guiButtonType = 
-					{
-						name = "local_remote_toggle_button"
-						position = { x=56 y=527 }
-						quadTextureSprite ="GFX_standard_button_148"	
-						tooltip = ""
-						tooltipText =""
-						delayedTooltipText = ""
-						buttonText = "FE_REMOTE"
-						buttonFont = "vic_18"
-					}
-					
 				}
+
 				### bookmarks
 				windowType = 
 				{
@@ -4957,11 +4960,41 @@ guiTypes = {
 				downsound = ""
 				fullscreen=yes
 				
+				iconType = {
+					name = "shattered_ornament"
+					spriteType = "GFX_alt_start_ornament"
+					position = { x= -298 y = 1 }
+					Orientation = "CENTER_UP"
+				}
+				guiButtonType = {
+					name = "alternate_start_shattered_button"
+					spriteType = "GFX_alt_shattered_start_button"
+					position = { x= -241 y = 2 }
+					Orientation = "CENTER_UP"
+					pdx_tooltip = "SHATTERED_WORLD_TOOLTIP"
+					pdx_tooltip_delayed = "SHATTERED_WORLD_TOOLTIP_DELAYED"
+					clicksound = click_shattered_world
+				}
+				iconType = {
+					name = "random_ornament"
+					spriteType = "GFX_alt_start_ornament"
+					position = { x= 99 y = 1 }
+					Orientation = "CENTER_UP"
+				}
+				guiButtonType = {
+					name = "alternate_start_random_button"
+					spriteType = "GFX_alt_random_start_button"
+					position = { x= 156 y = 2 }
+					Orientation = "CENTER_UP"
+					pdx_tooltip = "RANDOM_WORLD_TOOLTIP"
+					pdx_tooltip_delayed = "RANDOM_WORLD_TOOLTIP_DELAYED"
+					clicksound = click_random_world
+				}
 				iconType =
 				{
 					name ="frontend_banner1"
 					spriteType = "GFX_lobby_top_bg"
-					position = { x= -170 y = 0 }
+					position = { x= -155 y = 0 }
 					Orientation = "CENTER_UP"
 				}
 				### datewidget
@@ -5008,7 +5041,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_up1"
-						position = { x = 260 y = -6 }
+						position = { x = 260 y = -4 }
 						quadTextureSprite ="GFX_lobby_year_up"	
 						tooltip = ""
 						tooltipText =""
@@ -5022,7 +5055,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_down1"
-						position = { x = 260 y = 33 }
+						position = { x = 260 y = 35 }
 						quadTextureSprite ="GFX_lobby_year_down"	
 						tooltip = ""
 						tooltipText =""
@@ -5036,7 +5069,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_up2"
-						position = { x = 280 y = -6 }
+						position = { x = 280 y = -4 }
 						quadTextureSprite ="GFX_lobby_year_up"	
 						tooltip = ""
 						tooltipText =""
@@ -5050,7 +5083,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_down2"
-						position = { x = 280 y = 33 }
+						position = { x = 280 y = 35 }
 						quadTextureSprite ="GFX_lobby_year_down"	
 						tooltip = ""
 						tooltipText =""
@@ -5064,7 +5097,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_up3"
-						position = { x = 300 y = -6 }
+						position = { x = 300 y = -4 }
 						quadTextureSprite ="GFX_lobby_year_up"	
 						tooltip = ""
 						tooltipText =""
@@ -5079,7 +5112,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_down3"
-						position = { x = 300 y = 33 }
+						position = { x = 300 y = 35 }
 						quadTextureSprite ="GFX_lobby_year_down"	
 						tooltip = ""
 						tooltipText =""
@@ -5308,7 +5341,7 @@ guiTypes = {
 					position = { x= 0 y = -185 }
 					Orientation = "LOWER_LEFT"
 				}
-				
+
 				windowType = {
 					name ="expansion_list_subwindow"
 					position = { x=22 y =-226 }
@@ -5404,6 +5437,13 @@ guiTypes = {
 					clicksound = play
 				}
 				
+				iconType = {
+					name = "ironman_icon"
+					spriteType = "GFX_ironman_icon"
+					position = { x = -210 y = -80 }
+					Orientation = "LOWER_RIGHT"
+				}
+
 				windowType = {
 					name = "play_button_positioning_window"
 					position = { x = -211 y = -81 }
@@ -5414,6 +5454,17 @@ guiTypes = {
 						name = "required_dlc_list"
 						size = { x=70 y=32 }
 					}
+				}
+				
+				guiButtonType = 
+				{
+					name = "randomlog_button"
+					position = { x = -256 y = -222 }
+					quadTextureSprite ="GFX_big_button_220"	
+					buttonText = "Print randomlog"
+					buttonFont = "vic_22"
+					Orientation = "LOWER_RIGHT"
+					clicksound = play
 				}
 				
 				guiButtonType = 
@@ -5963,13 +6014,27 @@ guiTypes = {
 		iconType = {
 			name = "cloud_file"
 			spriteType = "GFX_cloud_file"
-			position = { x = 248 y = 21 }
+			position = { x = 248 y = 23 }
 		}
 		
 		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
-			position = { x = 273 y = 16 }
+			position = { x = 273 y = 18 }
+		}
+		
+		iconType = {
+			name = "shattered_icon"
+			spriteType = "GFX_shattered_save"
+			position = { x = 273 y = 3 }
+			pdx_tooltip = "SHATTERED_SAVE_TOOLTIP"
+		}
+		
+		iconType = {
+			name = "random_world_icon"
+			spriteType = "GFX_random_world_save"
+			position = { x = 273 y = 3 }
+			pdx_tooltip = "RANDOM_WORLD_SAVE_TOOLTIP"
 		}
 		
 		guiButtonType = 

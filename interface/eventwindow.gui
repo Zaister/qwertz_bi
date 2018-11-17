@@ -184,10 +184,38 @@ guiTypes = {
 			size = { x=200 y=40}
 		}
 		
+		instantTextBoxType = 
+		{
+			name = "AdjectiveLabel"
+			position = { x = 30 y = 367 }
+			font = "vic_22_black"
+			text = "RENAME_ADJECTIVE"
+			format = right
+			maxWidth = 120
+			fixedsize = yes
+		}
+		
+		editBoxType = {
+			name = "NameEditBox2"
+			position = { x = 150 y = 355 }
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "vic_22_black"
+			borderSize = {x = 4 y = 4}
+			cursor = { x=4 y=3 }
+			text = "UI_MISSING_TEXT"
+			size = { x=200 y=40}
+		}
+		
 		guiButtonType = {
 			name ="random_name_button"
 			quadTextureSprite = "GFX_newborn_name_buttons" # Changed in code
 			position = { x= 181 y = 358 }
+		}
+		
+		guiButtonType = {
+			name ="random_name_button2"
+			quadTextureSprite = "GFX_newborn_name_buttons" # Changed in code
+			position = { x= 350 y = 325 }
 		}
 		
 		guiButtonType = {
@@ -223,6 +251,15 @@ guiTypes = {
 			buttonFont = "vic_18"
 			position = { x= 275 y = 430 }
 			shortcut = "c"
+			clicksound = generic_click_04
+		}
+		guiButtonType = {
+			name ="Message_Cancel"
+			quadTextureSprite = "GFX_standard_button_148"
+			buttonText = "CANCEL"
+			buttonFont = "vic_18"
+			position = { x= 75 y = 430 }
+			shortcut = "y"
 			clicksound = generic_click_04
 		}
 		guiButtonType = {
@@ -1028,7 +1065,7 @@ guiTypes = {
 		OverlappingElementsBoxType = 
 		{
 			name = "EventOptionPortraits1"
-			position = { x = 366 y = 238 }
+			position = { x = 346 y = 238 }
 			size = { x=200 y=40 }
 			format = right
 			spacing = 0
@@ -1056,7 +1093,7 @@ guiTypes = {
 		OverlappingElementsBoxType = 
 		{
 			name = "EventOptionPortraits2"
-			position = { x = 366 y = 278 }
+			position = { x = 346 y = 278 }
 			size = { x=200 y=40 }
 			format = right
 			spacing = 0
@@ -1084,7 +1121,7 @@ guiTypes = {
 		OverlappingElementsBoxType = 
 		{
 			name = "EventOptionPortraits3"
-			position = { x = 366 y = 318 }
+			position = { x = 346 y = 318 }
 			size = { x=200 y=40 }
 			format = right
 			spacing = 0
@@ -1112,7 +1149,7 @@ guiTypes = {
 		OverlappingElementsBoxType = 
 		{
 			name = "EventOptionPortraits4"
-			position = { x = 366 y = 358 }
+			position = { x = 346 y = 358 }
 			size = { x=200 y=40 }
 			format = right
 			spacing = 0
@@ -1429,7 +1466,7 @@ guiTypes = {
 		instantTextBoxType = 
 		{
 			name = "CountdownText"
-			position = { x = 20 y = 415 }
+			position = { x = 50 y = 255 }
 			textureFile = ""
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}

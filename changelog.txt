@@ -2,6 +2,9 @@ QWERTZ Shortcuts for Bigger Interface Mod
 Changelog
 
 ---
+v. 2.0
+- Updated for patch 3.0 and Holy Fury
+
 v. 1.31
 - Updated for patch 2.8.3
 
