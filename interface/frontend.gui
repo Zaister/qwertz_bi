@@ -5541,7 +5541,7 @@ guiTypes = {
 			name ="traits"
 			position = { x=18 y =12}
 			backGround=""
-			size = { x=241 y =300}
+			size = { x=241 y =450}
 			Orientation = "UPPER_LEFT"
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
@@ -5553,7 +5553,7 @@ guiTypes = {
 		guiButtonType = 
 		{
 			name = "cancel_button"
-			position = { x = 61 y = 318 }
+			position = { x = 61 y = 468 }
 			quadTextureSprite ="GFX_standard_button_164"
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"

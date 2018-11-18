@@ -2,6 +2,10 @@ QWERTZ Shortcuts for Bigger Interface Mod
 Changelog
 
 ---
+v. 2.0.1
+- Updated for "Bigger Interface" mod version 2.0.1
+- now using "[SHIFT]+Y" instead of "[SHIFT]+Z" for raising levies in the province view.
+
 v. 2.0
 - Updated for patch 3.0 and Holy Fury
 

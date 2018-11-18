@@ -46,7 +46,7 @@ guiTypes = {
 			position = { x=180 y=354 }
 			quadTextureSprite ="GFX_military_troop_strip_1"	
 			Orientation = "UPPER_LEFT"
-			shortcut = "y"
+			priority_shortcut = "Y"
 		}
 
 		guiButtonType =	{
@@ -54,7 +54,7 @@ guiTypes = {
 			position = { x=220 y=354 }
 			quadTextureSprite ="GFX_military_troop_strip_1"	
 			Orientation = "UPPER_LEFT"
-			shortcut = "c"
+			priority_shortcut = "C"
 		}
 		
 		iconType =	{
@@ -792,7 +792,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_siege_assault_button"	
 				Orientation = "UPPER_LEFT"
 				clicksound = generic_click_02
-				shortcut = "c"
+				shortcut = "C"
 			}
 
 			
@@ -943,7 +943,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_province_toggle_siege"
 			Orientation = "UPPER_LEFT"
 			clicksound = generic_click_04
-			shortcut = "y"
+			shortcut = "Z"
 		}
 		
 		

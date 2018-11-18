@@ -2181,6 +2181,7 @@ guiTypes = {
 			name = "EventOptionButton1"
 			position = { x = 85 y = 614 }
 			quadTextureSprite ="GFX_event_normal_option"
+			shortcut = "c"
 		}
 		instantTextBoxType = 
 		{
