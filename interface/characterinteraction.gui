@@ -135,7 +135,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "OK"
 			buttonFont = "common"
-			shortcut = "c"
+			priority_shortcut = "c"
 		}
 
 
@@ -148,7 +148,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
 			buttonFont = "common"
-			shortcut = "y"
+			priority_shortcut = "y"
 		}
 
 		guiButtonType = {
@@ -234,7 +234,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "OK"
 			buttonFont = "common"
-			shortcut = "c"
+			priority_shortcut = "c"
 		}
 
 
@@ -247,7 +247,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
 			buttonFont = "common"
-			shortcut = "y"
+			priority_shortcut = "y"
 		}
 
 		guiButtonType = {
@@ -339,7 +339,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "OK"
 			buttonFont = "common"
-			shortcut = "c"
+			priority_shortcut = "c"
 		}
 
 
@@ -352,7 +352,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
 			buttonFont = "common"
-			shortcut = "y"
+			priority_shortcut = "y"
 		}
 
 		guiButtonType = {
@@ -450,7 +450,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "OK"
 			buttonFont = "common"
-			shortcut = "c"
+			priority_shortcut = "c"
 		}
 
 
@@ -463,7 +463,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
 			buttonFont = "common"
-			shortcut = "y"
+			priority_shortcut = "y"
 		}
 
 		guiButtonType = {

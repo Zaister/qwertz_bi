@@ -1835,6 +1835,7 @@ guiTypes = {
 			buttonText = "BACK"
 			clicksound = character_view_click
 			pdx_tooltip = "BACK_TO_RELIGION_VIEW"
+			shortcut = "y"
 		}
 	}
 

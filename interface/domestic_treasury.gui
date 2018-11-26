@@ -163,8 +163,8 @@ guiTypes = {
 			windowType = {
 				name = "artifact_history"
 				backGround ="background_bv"
-				position = { x=630 y=185 }
-				size = { x=420 y=655 }
+				position = { x=1140 y=90 }
+				size = { x=420 y=984 }
 				moveable = 1
 				Orientation = "UPPER_LEFT"
 
@@ -200,7 +200,7 @@ guiTypes = {
 					name = "history_entries"
 					position = { x = 36 y = 55 }
 					backGround=""
-					size = { x=342 y = 500 }
+					size = { x=342 y = 900 }
 					spacing = 0
 					scrollbartype = "standardlistbox_slider"
 					borderSize = {x = 0 y = 0}
