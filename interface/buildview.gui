@@ -216,7 +216,7 @@ guiTypes = {
 			name ="prev_province"
 			quadTextureSprite = "GFX_buildview_prev"
 			position = { x= 13 y =121 }
-			shortcut = "y"
+			priority_shortcut = "y"
 			pdx_tooltip = "PREV_PROVINCE"
 			clicksound = generic_click_04
 		}

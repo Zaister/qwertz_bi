@@ -2,6 +2,9 @@ QWERTZ Shortcuts for Bigger Interface Mod
 Changelog
 
 ---
+v. 2.0.3
+- Updated for "Bigger Interface" mod version 2.0.3 and patch 3.0.1
+
 v. 2.0.2
 - Updated for "Bigger Interface" mod version 2.0.2
 - restore "y" instead of "z" for raising levies in the province view.

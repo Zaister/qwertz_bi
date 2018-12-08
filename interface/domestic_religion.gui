@@ -1025,6 +1025,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = character_view_click
 			pdx_tooltip = "SHOW_COLLEGE_OF_CARDINALS"
+			shortcut = "x"
 		}
 		guiButtonType =	{
 			name = "show_saints_button"
@@ -1033,6 +1034,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = character_view_click
 			pdx_tooltip = "SHOW_SAINTS"
+			shortcut = "n"
 		}
 		instantTextBoxType = {
 			name = "bishops_label"
@@ -1801,7 +1803,7 @@ guiTypes = {
 	windowType = {
 		name = "domestic_religion_saints"
 		position = { x = 0 y = 97 }
-		size = { x = 576 y = 512 }
+		size = { x = 80 y = 512 }
 		
 		iconType = {
 			name ="saints_bg"
@@ -1823,7 +1825,7 @@ guiTypes = {
 		listboxType = {
 			name = "saints_grid_list"
 			position = { x = 23 y = 100 }
-			size = { x=502 y = 500}
+			size = { x=80 y = 500}
 			scrollbartype = "standardlistbox_slider"
 		}
 		
