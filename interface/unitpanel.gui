@@ -27,7 +27,7 @@ guiTypes = {
 				name = "button_embarked"
 				position = { x = 55 y = 0 }
 				quadTextureSprite ="GFX_unitpanel_navy_embarked"
-				shortcut = "v"
+				priority_shortcut = "v"
 			}
 
 			instantTextBoxType = {
@@ -225,7 +225,7 @@ guiTypes = {
 				position = { x = 159 y = 39 }
 				quadTextureSprite ="GFX_unitpanel_button_loadtoship"
 				clicksound = generic_click_01
-				shortcut = "v"
+				priority_shortcut = "v"
 		}
 		guiButtonType = {
 				name = "attach_unit_button"
@@ -282,7 +282,7 @@ guiTypes = {
 				name = "button_embarked"
 				position = { x = 55 y = 0 }
 				quadTextureSprite ="GFX_unitpanel_navy_embarked"
-				shortcut = "v"
+				priority_shortcut = "v"
 			}
 
 			instantTextBoxType = {
@@ -336,7 +336,7 @@ guiTypes = {
 				name = "remove_unit_from_selection_button"
 				position = { x = 325 y = 14 }
 				quadTextureSprite ="GFX_main_close_button"
-				shortcut = "v"
+				priority_shortcut = "v"
 		}
 		
 		iconType =
@@ -438,7 +438,7 @@ guiTypes = {
 				position = { x = 144 y = 39 }
 				quadTextureSprite ="GFX_unitpanel_button_loadtoship"
 				clicksound = generic_click_01
-				shortcut = "v"
+				priority_shortcut = "v"
 		}
 		guiButtonType = {
 				name = "attach_unit_button"
@@ -515,7 +515,7 @@ guiTypes = {
 			position = { x = 132 y = 11 }
 			quadTextureSprite ="GFX_unitpanel_button_loadtoship"
 			clicksound = generic_click_01
-			shortcut = "V"
+			priority_shortcut = "V"
 		}
 		guiButtonType = {
 			name = "dibandallbutton"

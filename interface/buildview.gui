@@ -148,8 +148,8 @@ guiTypes = {
 			quadTextureSprite ="GFX_create_baron"
 			position = { x = 208 y = 118 }
 			Orientation = "UPPER_LEFT"
-			#priority_shortcut = "v"
-			shortcut = "v"
+			priority_shortcut = "v"
+			#shortcut = "v"
 			pdx_tooltip = "CREATE_BARON"
 		}
 
