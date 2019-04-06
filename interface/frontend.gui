@@ -1112,7 +1112,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "single_player_button"
-					position = { x = 335 y = -160 }
+					position = { x = -465 y = -110 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_NEW_GAME"
 					buttonFont = "vic_22"
@@ -1123,7 +1123,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "load_game_button"
-					position = { x = 335 y = -110 }
+					position = { x = -465 y = -60 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_LOAD_GAME"
 					buttonFont = "vic_22"
@@ -1134,7 +1134,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "nudge_button"
-					position = { x = 335 y = -10 }
+					position = { x = -465 y = -10 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "NUDGE"
 					buttonFont = "vic_22"
@@ -1266,7 +1266,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "single_player_button"
-					position = { x = 335 y = -110 }
+					position = { x = -465 y = -110 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_NEW_GAME"
 					buttonFont = "vic_22"
@@ -1276,7 +1276,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "load_game_button"
-					position = { x = 335 y = -60 }
+					position = { x = -465 y = -60 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_LOAD_GAME"
 					buttonFont = "vic_22"
@@ -1286,7 +1286,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "nudge_button"
-					position = { x = 335 y = -10 }
+					position = { x = -465 y = -10 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "NUDGE"
 					buttonFont = "vic_22"
@@ -5443,6 +5443,13 @@ guiTypes = {
 					position = { x = -210 y = -80 }
 					Orientation = "LOWER_RIGHT"
 				}
+				
+				iconType = {
+					name = "bronzeman_icon"
+					spriteType = "GFX_bronzeman_icon"
+					position = { x = -210 y = -80 }
+					Orientation = "LOWER_RIGHT"
+				}
 
 				windowType = {
 					name = "play_button_positioning_window"
@@ -5986,7 +5993,7 @@ guiTypes = {
 			maxWidth = 240
 			maxHeight = 18	
 			fixedsize = yes
-		
+			alwaystransparent = yes
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -6000,7 +6007,7 @@ guiTypes = {
 			maxWidth = 240
 			maxHeight = 18	
 			fixedsize = yes
-		
+			alwaystransparent = yes
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -6013,6 +6020,12 @@ guiTypes = {
 		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
+			position = { x = 273 y = 18 }
+		}
+		
+		iconType = {
+			name = "bronzeman_icon"
+			spriteType = "GFX_bronzeman_icon"
 			position = { x = 273 y = 18 }
 		}
 		
