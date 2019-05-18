@@ -1947,7 +1947,7 @@ guiTypes = {
 					guiButtonType = {
 						name ="liege_portrait"
 						quadTextureSprite = "GFX_char_50"
-						position = { x= 143 y = 132 }
+						position = { x= 150 y = 132 }
 						Orientation = "UPPER_LEFT"
 						pdx_tooltip = "CHARACTER_TOOLTIP"
 						pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
@@ -1956,21 +1956,20 @@ guiTypes = {
 					{
 						name = "liege_portrait_frame"
 						quadTextureSprite = "GFX_charframe_50"
-						position = { x= 136 y = 124 }
+						position = { x= 143 y = 124 }
 						Orientation = "UPPER_LEFT"
 					}
 				
 					guiButtonType = {
-						position = { x= 137 y = 164 }
+						position = { x= 144 y = 164 }
 						name = "liege_shield"	
 						quadTextureSprite ="GFX_shield_small"
 					}
 					
 					guiButtonType = {
-						position = { x= 124 y = 189 }
+						position = { x= 132 y = 189 }
 						name = "customize"	
 						quadTextureSprite ="GFX_lobby_cust_open"
-						pdx_tooltip = "RD_OPEN_RULER_DESIGNER"
 						clicksound = generic_click_04
 					}		
 					
@@ -6018,15 +6017,22 @@ guiTypes = {
 		}
 		
 		iconType = {
+			name = "bronzeman_icon"
+			spriteType = "GFX_bronzeman_icon"
+			position = { x = 273 y = 18 }
+		}
+		
+		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
 			position = { x = 273 y = 18 }
 		}
 		
 		iconType = {
-			name = "bronzeman_icon"
-			spriteType = "GFX_bronzeman_icon"
-			position = { x = 273 y = 18 }
+			name = "highlighted_ruler_icon"
+			spriteType = "GFX_highlighted_ruler_save"
+			position = { x = 270 y = 4 }
+			pdx_tooltip = "HIGHLIGHTED_RULER_SAVE_TOOLTIP"
 		}
 		
 		iconType = {
@@ -6041,13 +6047,6 @@ guiTypes = {
 			spriteType = "GFX_random_world_save"
 			position = { x = 273 y = 3 }
 			pdx_tooltip = "RANDOM_WORLD_SAVE_TOOLTIP"
-		}
-		
-		iconType = {
-			name = "highlighted_ruler_icon"
-			spriteType = "GFX_highlighted_ruler_save"
-			position = { x = 270 y = 4 }
-			pdx_tooltip = "HIGHLIGHTED_RULER_SAVE_TOOLTIP"
 		}
 		
 		guiButtonType = 
@@ -6966,7 +6965,7 @@ guiTypes = {
 	windowType = {
 		name = "welcome_screen"
 		backGround=""
-		position = { x=-364 y=-330 }	
+		position = { x=-364 y=-250 }	
 		size = { x=728 y=612 }
 		moveable = 0
 		dontRender = ""

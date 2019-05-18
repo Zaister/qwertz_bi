@@ -1017,21 +1017,21 @@
 				guiButtonType = {
 					name ="vote_for"
 					quadTextureSprite = "GFX_vote_for"
-					position = { x= 270 y = 380 }
+					position = { x= 270 y = 414 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				guiButtonType = {
 					name ="vote_against"
 					quadTextureSprite = "GFX_vote_against"
-					position = { x= 270 y = 380 }
+					position = { x= 270 y = 414 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				guiButtonType = {
 					name ="vote_abstain"
 					quadTextureSprite = "GFX_vote_abstain"
-					position = { x= 270 y = 380 }
+					position = { x= 270 y = 414 }
 					Orientation = "UPPER_LEFT"
 				}
 			}
